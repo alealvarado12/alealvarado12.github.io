@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding:0;
+    font-family: "Kenia", sans-serif;
+    
+}
+body {
+  background: linear-gradient(to bottom, #331d2c, #a78295, #efe1d1);
+}
+
+a {
+  color: #efe1d1;
+  text-decoration: none;
+  font-size: 2rem;
+}
+#header {
+ padding-left: 20vh;
+  color: #efe1d1;
+  }
+
+#side-bar {
+  height: 100%;
+  width: 250px;
+  text-align: center;
+  position: fixed;
+  background-color: #111111cb;
+  padding: 30px 0px ;
+}
+
+#side-bar nav a {
+  display: block;
+  line-height: 2rem;
+  color: #efe1d1;
+
+  text-decoration: none;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+#side-bar #socials {
+  position: relative;
+  left: 50%;
+  height: 70px;
+  transform: translateX(-50%);
+  display: flex;
+  background-color: #111111cb ;
+  bottom: 0;
+}
+
+#side-bar #socials a{
+  display: block;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+#footer {
+  height: 10vh;
+  width: 100%;
+  border-color: #331d2c;
+  position: absolute;
+  background-color: #331d2c;
+  color: #a78295;
+  bottom: 0;
+  font-size: 3rem;
+}
+
+main {
+  
+  /* display: flex; */
+  /* flex-direction: column;
+  gap: 1em; */
+  margin-left: 250px;
+ 
+}
+
+#about-me {
+  height: 30vh;
+  width: 100vh;
+  margin-bottom: 30px;
+  margin-left: 300px;
+ 
+}
+#about-me h2 {
+  padding-left: 25vh;
+  color: #efe1d1;
+}
+#projects {
+  background-color: rgb(188, 242, 94);
+  height: 30vh;
+  width: 150vh;
+  margin-bottom: 30px;
+  margin-left: 300px;
+}
+#socials {
+  bottom:0;
+  background-color: #ffffff;
+ 
+} 
