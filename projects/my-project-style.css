@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+body {
+  background: fixed linear-gradient(to bottom, #331d2c, #a78295, #efe1d1);
+}
+#header {
+  padding: 2%;
+  background-color: #111111cb;
+  height: 45px;
+  color: #efe1d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: #efe1d1;
+  font-size: 2.5rem;
+  margin: 10px;
+}
+header a:hover {
+  background-color: #302f2fcb;
+}
+main{
+ 
+  display: flex;
+}
+#virtual-pet {
+
+  display: flex;
+  flex-direction: column;
+  width: 30vh;
+  margin-top:10vh ;
+  margin-left: 15vh;
+}
+main .text{
+font-size: 1.8rem;
+font-weight: 400;
+
+}
+#virtual-pet div{
+  margin: 20px;
+
+}
+#virtual-pet .img{
+
+justify-content: center;
+align-items: center;
+  width: 400px;
+}
+#virtual-pet .text{
+  
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#blackjack {
+ 
+  display: flex;
+  flex-direction: column;
+  width: 30vh;
+  margin-top:15vh;
+  margin-left: 40vh;
+}
+#blackjack div{
+  margin: 20px;
+
+}
+#blackjack .img {
+  
+  justify-content: center;
+  align-items: center;
+    width: 400px;
+}
+
+#blackjack .text {
+
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+}
+#garage-workshop {
+  
+  display: flex;
+  flex-direction: column;
+  width: 30vh;
+  margin-top:10vh;
+  margin-left: 40vh;
+}
+#garage-workshop div{
+  margin: 20px;
+
+}
+#garage-workshop.img {
+
+  justify-content: center;
+  align-items: center;
+    width: 400px;
+}
+#garage-workshop .text {
+  
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+}
+#footer {
+  height: 8vh;
+  width: 100%;
+  border-color: #331d2c;
+  position: absolute;
+  background-color: #331d2c;
+  color: #efe1d1;
+  bottom: 0;
+  text-align: center;
+  font-size: 2rem;
+}
