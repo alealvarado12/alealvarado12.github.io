@@ -45,13 +45,8 @@ header a {
 header a:hover {
   background-color: #302f2fcb;
 }
-#about-me div {
-  /* border: black solid 1px;
-  margin-top: 25vh;
-  margin-right: 100vh;
-  width: 90vh;
-  height: 40vh; */
-}
+
+
 #about-me h2 {
   margin-left: 15vh;
   
