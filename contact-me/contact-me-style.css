@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  body {
+    
+    background: fixed linear-gradient(to bottom, #331d2c, #a78295, #efe1d1);
+  }
+  #header {
+    padding: 2%;
+    background-color: #111111cb;
+    height: 45px;
+    color: #efe1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form{
+
+        background-color: #82a79300;
+        padding-top: 30vh; 
+        padding-left: 85vh;
+
+  }
+  header a {
+    text-decoration: none;
+    color: #efe1d1;
+    font-size: 2.5rem;
+    margin: 10px;
+  }
+  header a:hover {
+    background-color: #302f2fcb;
+  }
+
+
+.row label{
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+input[type=text], textarea {
+  text-align: left;
+  background-color: #a78295;
+  border-radius: 10px;
+  margin: auto 0;
+  color: #FFFFFF;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 10px #3e4444;
+  
+  }
+
+#name{
+height:2vh ;
+width: 15vh;
+}
+#email{
+
+    height:2vh ;
+width: 15vh;
+}
+#message{
+    height:10vh ;
+width: 20vh;
+}
+input[type=submit] {
+  background-color: #331d2c;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  box-shadow: 5px 5px 5px #3e4444;
+}
