@@ -20,9 +20,11 @@
   form{
 
         background-color: #82a79300;
-        padding-top: 30vh; 
-        padding-left: 85vh;
-
+        margin-left: 85vh;
+        margin-top: 12vh ;
+     
+        width: 45vh;
+        height: 59vh;
   }
   header a {
     text-decoration: none;
@@ -55,17 +57,20 @@ input[type=text], textarea {
   }
 
 #name{
-height:2vh ;
-width: 15vh;
+height:4vh ;
+width: 19vh;
+font-size: 2vh;
 }
 #email{
 
-    height:2vh ;
-width: 15vh;
+    height:4vh ;
+width: 19vh;
+font-size: 2vh;
 }
 #message{
-    height:10vh ;
-width: 20vh;
+    height:35vh ;
+width: 40vh;
+font-size: 2vh;
 }
 input[type=submit] {
   background-color: #331d2c;
@@ -74,4 +79,16 @@ input[type=submit] {
   font-size: 18px;
   margin-left: 10px;
   box-shadow: 5px 5px 5px #3e4444;
+}
+
+footer {
+  height: 8vh;
+  width: 100%;
+  border-color: #331d2c;
+  position: absolute;
+  background-color: #331d2c;
+  color: #efe1d1;
+  bottom: 0;
+  text-align: center;
+  font-size: 2rem;
 }
