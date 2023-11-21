@@ -7,9 +7,10 @@ body {
   background: fixed linear-gradient(to bottom, #331d2c, #a78295, #efe1d1);
 }
 body main {
+outline: auto;
   padding-top: 45px;
   height: 82vh;
-  width: 150vh;
+  /* width: 150vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +62,8 @@ header a:hover {
   width: 35vh;
 }
 #socials{
- 
+ width: 20vh;
+ margin-left: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;

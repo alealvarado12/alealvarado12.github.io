@@ -17,12 +17,16 @@
     align-items: center;
   }
 
+
+
   form{
 
+
         background-color: #82a79300;
-        margin-left: 85vh;
+        margin-left: 80vh;
         margin-top: 12vh ;
      
+      
         width: 45vh;
         height: 59vh;
   }
@@ -91,4 +95,16 @@ footer {
   bottom: 0;
   text-align: center;
   font-size: 2rem;
+}
+
+
+#submit_button{
+
+  height:3vh ;
+  width: 19vh;
+}
+
+
+form input:hover {
+  background-color: #302f2fcb;
 }
