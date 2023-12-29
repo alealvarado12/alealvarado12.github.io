@@ -11,40 +11,79 @@
     />
 
     <link rel="stylesheet" href="/style.css" />
+    <script src="script.js" defer></script>
     <title>Portfolio</title>
   </head>
   <body>
     <header id="header" class="header">
       <a href="#">About Me</a>
-      <a href="/projects/projects.html " >Projects</a>
-      <a href="/resume/Sebastian_Alvarado_Resume.pdf" >Resume</a>
+      <a href="/projects/projects.html ">Projects</a>
+      <a href="/resume/Sebastian_Alvarado_Resume.pdf">Resume</a>
       <a href="/contact-me/contact-me.html">Contact me</a>
     </header>
 
-    <main>
+    <div class="main">
       <section id="about-me">
-        
-          
-          <h1>Sebastian Alvarado.</h1>
-          <h2 style="color: #efe1d1">|Full Stack Java Developer|</h2>
+        <div class="info">
+          <div class="name-ontainer">
+            <h1 class="name">Sebastian Alvarado.</h1>
+          </div>
+          <div>
+            <div class="position-container">
+              <h2 class="position" style="color: #efe1d1">
+                |Full Stack Java Developer|
+              </h2>
+            </div>
+          </div>
 
-          <div id="socials"> <a  href="https://www.facebook.com/ " target="_blank" ><img src="/images/Facebook-Logo-2023.png  " target="_blank" alt="facebook logo"></a>
-          <a href="https://www.linkedin.com/in/sebastian-alvarado-5091a31b8/ " target="_blank"><img src="/images/LinkedIn-logo-initials.png" alt="linkedin profile"></a>
-        <a href="https://github.com/alealvarado12  " target="_blank"><img src="/images/Github-logo.png" alt="Github profile"></a></div>
+          <div id="socials">
+            <a href="https://www.facebook.com/ " target="_blank"
+              ><img src="/images/Facebook-Logo-2023.png  " alt="facebook logo"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/sebastian-alvarado-5091a31b8/ "
+              target="_blank"
+              ><img
+                src="/images/LinkedIn-logo-initials.png"
+                alt="linkedin profile"
+            /></a>
+            <a href="https://github.com/alealvarado12  " target="_blank"
+              ><img src="/images/Github-logo.png" alt="Github profile"
+            /></a>
+          </div>
+          
+        </div>
+        <div class="bio"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga corrupti voluptatibus sint magni saepe quis dolorem impedit necessitatibus incidunt, inventore quae debitis ipsum accusamus. Eum ratione illo sunt maiores quaerat.</p></div>
       </section>
       <section id="image">
-        <img style="flex-basis: 200px"
+        <img
+          style="flex-basis: 200px"
           id="side-image"
           src="/images/MilesMorales.jpg"
           alt="MilesMorales Upside Down"
         />
       </section>
-    </main>
- 
-   
+    </div>
+    <div class="project-slideshow">
+      <div class="slide-container" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+        <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src="/images/virtual-pet.gif" alt="virtual-pet" />
+          </li>
+          <li class="slide">
+            <img src="/images/did youknow.jpg" alt="virtual-pet" />
+          </li>
+          <li class="slide">
+            <img src="/images/notetaking.jpeg" alt="virtual-pet" />
+          </li>
+        </ul>
+      </div>
+    </div>
     <footer id="footer" class="footer">
-      <hr>
-      <h2>	&copy All Rights Reserved</h2>
+      <hr />
+      <h2>&copy All Rights Reserved</h2>
     </footer>
   </body>
 </html>
